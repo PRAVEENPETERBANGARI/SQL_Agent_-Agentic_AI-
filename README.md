@@ -22,7 +22,7 @@ This project is an agentic AI solution that acts as a Retail SQL Data Analyst. I
 
 ### 3. Python Virtual Environment (Windows PowerShell)
 Run the following commands in your terminal:
-```powershell
+In powershell
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
