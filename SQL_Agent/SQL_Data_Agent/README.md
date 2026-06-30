@@ -27,11 +27,11 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 
-### 4. Load Data
+**### 4. Load Data**
 Populate the MySQL tables with the CSV data:
 python -m database.load_data
 
-### 5. Running the Agent
+**### 5. Running the Agent**
 Start the interactive CLI application:
 
 python -m src.app
@@ -39,7 +39,7 @@ python -m src.app
 Type a natural language business question to interact with the database. Type exit to quit.
 
 
-### Testing
+**### Testing**
 Run the automated pytest suite to verify safety, memory, and SQL execution behavior:
 
 PowerShell
